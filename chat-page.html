@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <script type='module' src="./js/chat.js" defer></script>
+    <title>Send a Message</title>
+</head>
+<body>
+    <div class="wrapper chat-page">
+        <header>
+            <div>
+                <span class="back-arrow">&#10094</span>
+                <a href="./index.html" class="media-icon">
+                    <img src="./images/photo-1578774296842-c45e472b3028.jpeg" alt="profile-image">
+                </a>
+            </div>
+            <div class="user-info">
+                <a href="./profile.html">
+                    <h2>Johnny</h2>
+                    <p class="small-text">online</p>
+                </a>
+            </div>
+            <div class="icon-box">
+                <span id="dropdown" class="settings-btn icon">
+                        <img class='icon-png' src="./images/download (2).jpeg" title="Settings" alt="Settings">
+                    </span>
+                <span id="dropdown" class="notifications-btn icon">
+                    <img class='icon-png' src="./images/images.jpeg" title="Notifications" alt="Notificatiions">
+
+                </span>
+            </div>
+        </header>
+
+        <ul class="notifications-container dropdown">
+            <li>
+                <p>He followed you</p>
+                <span>&#10006</span>
+            </li>
+            <li>
+                <p>Optimize your profile for more likes </p>
+                <span>&#10006</span>
+            </li>
+            <li>
+                <p>Ruthiee viewed your profile </p>
+                <span>&#10006</span>
+            </li>
+            <li>
+                <p>Welcome to the Sendmie-app, where positivityreigns </p>
+                <span>&#10006</span> 
+            </li>
+        </ul>
+        <ul class="settings-container dropdown">
+            <li><a href="#">View Contact</a></li>
+            <li><a href="#">Report</a></li>
+            <li><a href="#">Block</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Mute notifications</a></li>
+            <li><a href="#">Wallpaper</a></li>
+        </ul>
+       
+        <main class="chat-body">
+            <ul class="chat-container" data-chat-container>
+                <li class="chat">Hello
+                </li>
+            </ul>
+
+            <div class="send-message">
+                <form action="#">
+                    <div class="form-group">
+                        <span class="emojis"><img class="icon-png" src="./images/images (9).png"></i></span>
+                        <input type="text" class="message" placeholder="Message">
+                        <div class="icon-box">
+                            <span><i class="fa-regular fa-pen"></i></span>
+                            <span><i class="fa-regular fa-camera-retro"></i></span>
+                        </div>
+                    </div>
+                    <button type="submit"><img class="icon-png" src="./images/download (13).png"></button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="https://kit.fontawesome.com/7f7c57910f.js" crossorigin="anonymous"></script>
+</body>
+</html>

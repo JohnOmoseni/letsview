@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <title>Profile Page</title>
+    <script type="module" src="./js/profile.js" defer></script>
+
+</head>
+<body>
+    <div class="wrapper profile-page">
+        <header>
+            <a class="media-icon" href="./index.html">
+                <img src="./images/images (1).png" alt="logo">
+            </a>
+            <div class="nav-links">
+                <a>Account</a>
+                <a>My Network</a>
+            </div>
+
+            <div class="icon-box">
+                <div class="darkmode-toggle icon dropdown">
+                    <img class='icon-png' src="./images/images (3).png" title="toggle-darkmode" alt="">
+                    <!-- <span title="toggle-darkmode" class="dropdown-btn">&#9967</span> -->
+                    
+                </div>
+                <div title="Settings" class="settings-btn icon" id="dropdown">
+                    <img class='icon-png' src="./images/download (2).jpeg" title="Settings" alt="Settings">
+                </div>
+                <div title="Notifications" class="notifications-btn icon" id="dropdown">
+                    <img class='icon-png' src="./images/images.jpeg" title="Notifications" alt="Notificatiions">
+                </div>
+            </div>
+
+            <a class="user-image" href="./profile.html" target="_parent">
+                <img src="./images/photo-1534528741775-53994a69daeb.jpeg"  alt="user-image">
+            </a>
+        </header>
+
+        <main id="profile-page-main">
+            <div class="container">
+                <span class="back-arrow">&#10094</span>
+                <img id="profile-image" src="./images/istockphoto-1150572112-170667a.jpg" alt="">
+                <div class="details-box">
+                    <img src="./images/istockphoto-1150572112-170667a.jpg" alt="user-image">
+                    <div class="user-details">
+                        <h2>Afolabi Ruth</h2>
+                        <p>Web Developer</p>
+                        <div class="details">
+                            <div class="post-number">
+                                <span>Posts</span>
+                                <p>256</p>
+                            </div>
+                            <div class="post-number">
+                                <span>Followers</span>
+                                <p>2.5k</p>
+                            </div>
+                            <div class="post-number">
+                                <span>Following</span>
+                                <p>365</p>
+                            </div>
+                        </div>
+                        <p>I would love to change the world but they won't give me a chance</p>
+                       <div class="profile-links">
+                           <a href="" target="_parent">Change Profile <span><i class="fa-solid fa-cookie-bite"></i></span></a>
+                           <a href="" target="_parent">Edit Profile <span><i class="fa-solid fa-pencil"></i></span></a>
+                           
+                       </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <ul class="notifications-container dropdown">
+            <li>
+                <p>He followed you</p>
+                <span>&#10006</span>
+            </li>
+            <li>
+                <p>Optimize your profile for more likes </p>
+                <span>&#10006</span>
+            </li>
+            <li>
+                <p>Ruthiee viewed your profile </p>
+                <span>&#10006</span>
+            </li>
+            <li>
+                <p>Welcome to the Sendmie-app, where positivityreigns </p>
+                <span>&#10006</span> 
+            </li>
+        </ul>
+        <ul class="settings-container dropdown">
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Appearance</a></li>
+            <li><a href="#">Privacy & Security</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+        <div class="notifications-container fullscreen">
+            <span class="close-btn" data-close-btn>&#10006</span>
+
+            <h2>Your Notifications</h2>
+
+            <div class="notifications">
+                <a class="dropdown-links" href="#">He followed you <span>&#10006</span></a>
+                <a class="dropdown-links" href="#">Optimize your profile for more likes <span>&#10006</span></a>
+                <a class="dropdown-links" href="#">Ruthiee viewed your profile <span>&#10006</span></a>
+                <a class="dropdown-links" href="#">Welcome to the Sendmie-app, where positivity reigns <span>&#10006</span></a>
+            </div>
+        </div>
+        <div class="settings-container fullscreen">
+            <span class="close-btn" data-close-btn>&#10006</span>
+        
+            <h2>Settings</h2>
+
+            <div class="setting-details">
+                <a class="dropdown-links" href="#">Account</a>
+                <a class="dropdown-links" href="#">Appearance</a>
+                <a class="dropdown-links" href="#">Privacy and Security</a>
+                <a class="dropdown-links" href="#">Help and Support</a>
+                <a class="dropdown-links" href="#">About</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/7f7c57910f.js" crossorigin="anonymous"></script>
+</body>
+</html>
