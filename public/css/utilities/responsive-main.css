@@ -6,7 +6,7 @@
   --bg-body: #dfe6f4;
   --bg-body-main: #dce6f9;
   --bg-body-text: #222;
-  --bg-scroller: #fbfcfff7;
+  --bg-scroller: #f7f4f4f4;
   --bg-post: #cec2fc;
   --bg-post--border: #020f28f1;
   --bg-comment-box: #1f046848;
@@ -149,7 +149,7 @@ ul > li {
 }
 
 #index-page form button {
-  margin-left: 1em;
+  margin-left: 0.5em;
   justify-self: end;
   padding: 0.4em 0.6em;
   width: min-content;

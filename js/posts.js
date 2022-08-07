@@ -5,7 +5,7 @@ const posts = [
         username: "Julianna Taylor",
         lastSeen: "2 days ago",
         body: "Good Old Days",
-        postImg: "img3",
+        postImg: "img4",
         commentCount: "0 comment",
         likeCount: "12"
     },
@@ -14,7 +14,7 @@ const posts = [
         username: "Alec Benjamin",
         lastSeen: "10 hours ago",
         body: "I don't mean to meddle, but the devil doesn't bargain.",
-        postImg: "img4",
+        postImg: "img5",
         commentCount: "0 comment",
         likeCount: "5"
     },
@@ -23,7 +23,7 @@ const posts = [
         username: "Annie Marie",
         lastSeen: "1 hour ago",
         body: "I don't mean to meddle, but the devil doesn't bargain.",
-        postImg: "img5",
+        postImg: "img6",
         commentCount: "0 comment",
         likeCount: "12"
     },
@@ -32,7 +32,7 @@ const posts = [
         username: "Lisa Laurence",
         lastSeen: "1 week ago",
         body: "I don't mean to meddle, but the devil doesn't bargain.",
-        postImg: "img6",
+        postImg: "img7",
         commentCount: "0 comment",
         likeCount: "14"
     },
